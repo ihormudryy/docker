@@ -8,7 +8,7 @@ services:
     expose:
       - '80'
     networks:
-      - proxy
+      - default
     environment:
       VIRTUAL_HOST: docker.mudryy.engineer
       VIRTUAL_PROTO: https
